@@ -1,15 +1,15 @@
 # import PyPDF2
 # import pprint
 from pathlib import Path
-
-dir = Path(r'L:\Projects - Proposals\P14500 - P14599\P14531 FTS SP Oil and Gas - Kakinada FPSO\10 Miscellaneous Data')
-
 from io import StringIO
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 import os
+
+# include file directory
+dir = Path(r'L:\Projects - Proposals\P14500 - P14599\P14531 FTS SP Oil and Gas - Kakinada FPSO\10 Miscellaneous Data')
 
 
 # converts pdf, returns its text content as a string
