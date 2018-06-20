@@ -28,11 +28,3 @@ class Proposal(mongoengine.Document):
                 x += len(reels)
         return x
 
-
-
-
-
-
-
-
-
