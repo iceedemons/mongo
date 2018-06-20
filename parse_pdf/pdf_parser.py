@@ -9,7 +9,7 @@ from pdfminer.pdfpage import PDFPage
 import os
 
 # include file directory
-dir = Path(r'L:\Projects - Proposals\P14500 - P14599\P14531 FTS SP Oil and Gas - Kakinada FPSO\10 Miscellaneous Data')
+dir = Path(r'')
 
 
 # converts pdf, returns its text content as a string
